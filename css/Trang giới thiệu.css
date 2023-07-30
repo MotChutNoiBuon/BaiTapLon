@@ -2,7 +2,9 @@
     font-family: Be Vietnam Pro, sans-serif;
     src: url(../fonts/BeVietnamPro-Regular.ttf);
     /*background-image: url(../images/pexels-olena-bohovyk-3646105.jpg);*/
-
+}
+header {
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
 }
 .subject {
     width: 7rem;
@@ -29,6 +31,20 @@
 }
 .neck h1 {
     font-size: 80px;
+    margin-bottom: 20px;
+}
+.neck a {
+    text-decoration: none;
+    color:white;
+    padding:1rem;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: #05a081;
+    background: #05a081;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
 }
 .neck {
     color: white;
@@ -40,8 +56,11 @@
     border: 5px solid yellow;
 
 }
+.neck p {
+    margin-top: 2rem;
+}
 .numbers {
-    
+    margin: 5rem;
     padding:4rem;
 
 
@@ -57,17 +76,87 @@
     justify-content: space-evenly;
 }
 .number {
-    padding:5rem;
-    margin:5rem;
+    padding:6rem;
+    margin:6rem;
     text-align: center;
 
 }
-.flex {
-    display: flex;
-    align-items: center;
+.number1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 40px;
+    color: rgb(244, 178, 35);
+    border: 1px solid rgb(255, 255, 255);
 }
+.number2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 40px;
+    color: rgb(37, 195, 195);
+    border: 1px solid rgb(255, 255, 255);
+}
+.number3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 40px;
+    color: rgb(15, 142, 213);
+    border: 1px solid rgb(255, 255, 255);
+}
+.number4 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 40px;
+    color: rgb(240, 151, 108);
+    border: 1px solid rgb(255, 255, 255);
+}
+.number span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(84, 86, 90);
+}
+
 .advanture {
-    text-align: center;
     justify-content: space-around;
     margin-top: 25px;
+    align-items: center;
+    text-align: center;
+}
+.advanture i {
+    font-size: 70px;
+}
+.icon1 {
+    color: rgb(244, 178, 35);
+    margin:20px;
+
+}
+.icon2 {
+    color: rgb(37, 195, 195);
+    margin:20px;
+
+
+}
+.icon3 {
+    color: rgb(15, 142, 213);
+    margin:20px;
+
+
+}
+.icon4 {
+    color: rgb(240, 151, 108);
+    margin:20px;
+
+
+}
+.advanture span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(84, 86, 90);
+}
+.advanture > div {
+    width: 200px;
+}
+.khoe {
+    position: relative;
 }
