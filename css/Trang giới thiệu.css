@@ -1,13 +1,12 @@
 * {
     font-family: Be Vietnam Pro, sans-serif;
     src: url(../fonts/BeVietnamPro-Regular.ttf);
-    /*background-image: url(../images/pexels-olena-bohovyk-3646105.jpg);*/
 }
 header {
-    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    background:white;
 }
 .subject {
-    width: 7rem;
+    width: 10rem;
 }
 .ads > h2 {
     width: 100%;
@@ -26,6 +25,9 @@ header {
     justify-content: space-between;
 }
 
+.main a {
+    margin:10px;
+}
 .icon {
     width: 1rem;
 }
@@ -48,14 +50,15 @@ header {
 }
 .neck {
     color: white;
-    background-image: url(../images/pexels-olena-bohovyk-3646105.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height:100%;
     text-align: center;
     padding: 10rem;
-    border: 5px solid yellow;
+    background: rgba(52, 42, 42, 0.65) url('../images/pexels-olena-bohovyk-3646105.jpg');
+    background-blend-mode: darken;
+    box-sizing: border-box;
 
 }
 .neck p {
@@ -162,3 +165,82 @@ header {
 .khoe {
     position: relative;
 }
+.introduction {
+    height: 500px;
+    margin-top: 22px;
+    margin-left:7%;
+    margin-right: 7%;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 50px;
+    background-image: url(../images/bee.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+.introduction div {
+    width: 50%;
+}
+.introduction h2 {
+    font-size: 36px;
+}
+.para h2, .para p, .para a {
+    display:block;
+    margin:5%;
+}
+.para {
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.para a {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    background: rgb(84, 86, 90);
+    min-width: 20px;
+    padding:15px;
+    text-decoration: none;
+    text-align: center;
+}
+.para a:hover {
+    color: rgb(84, 86, 90);
+    background: rgb(255, 255, 255);
+}
+
+.para a:visited {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    background: rgb(84, 86, 90);
+    min-width: 20px;
+    padding:15px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.foot {
+    background-color: rgb(38, 40, 42);
+    color: white;
+    border-radius: 29px;
+    padding:10px;
+    margin:10px;
+}
+.foot a {
+    text-decoration: none;
+    color: white;
+    
+}
+.foot a:hover {
+    color:  rgb(254,213,2);
+}
+/*background: linear-gradient(to right, #f2994a, #f2c94c);*/
