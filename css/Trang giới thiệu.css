@@ -10,7 +10,7 @@ header {
     background:white;
 }
 .subject {
-    width: 10rem;
+    width: 6rem;
 }
 .ads > h2 {
     width: 100%;
@@ -178,7 +178,7 @@ header {
     align-items: center;
     border-radius: 20px;
     padding: 5px 50px;
-    background-image: url(../images/bee.webp);
+    background-image: url(../images/gray\ bee.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
@@ -248,22 +248,25 @@ header {
     color:  rgb(254,213,2);
 }
 /*background: linear-gradient(to right, #f2994a, #f2c94c);*/
+
 /* định dạng cho button */
 #myBtn {
-  display: none; /* Mặc định button sẽ được ẩn*/
+  display: none; /*Mặc định button sẽ được ẩn*/
 
   position: fixed;
   bottom: 20px;
   right: 30px; 
-  z-index: 99; /* button được ưu tiên hiển thị đè lên các phần khác*/
+  z-index: 99;
   border: none;
   outline: none;
-  cursor: pointer;
+  cursor: pointer; /*cursor hiển thị con trỏ chuột khi duy chuyển con trỏ vào thành phần
+  ở đây là để hiển thị pointer*/
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 50%;
   background-color: rgb(254,213,2);
 }
  
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgb(38, 40, 42);
+  color:rgb(254,213,2);
 }

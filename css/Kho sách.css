@@ -1,0 +1,73 @@
+* {
+    font-family: Be Vietnam Pro, sans-serif;
+    src: url(../fonts/BeVietnamPro-Regular.ttf);
+}
+*::selection {
+    background: rgb(254,213,2);
+    color:black;
+}
+header {
+    background:white;
+}
+.subject {
+    width: 6rem;
+}
+.ads > h2 {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    justify-content: space-between;
+}
+
+.main a {
+    margin:10px;
+}
+
+
+.foot {
+    background-color: rgb(38, 40, 42);
+    color: white;
+    border-radius: 29px;
+    padding:10px;
+    margin:10px;
+}
+.foot a {
+    text-decoration: none;
+    color: white;
+    
+}
+.foot a:hover {
+    color:  rgb(254,213,2);
+}
+
+/* định dạng cho button */
+#myBtn {
+    display: none; /*Mặc định button sẽ được ẩn*/
+  
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer; /*cursor hiển thị con trỏ chuột khi duy chuyển con trỏ vào thành phần
+    ở đây là để hiển thị pointer*/
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(254,213,2);
+  }
+   
+  #myBtn:hover {
+    background-color: rgb(38, 40, 42);
+    color:rgb(254,213,2);
+  }
