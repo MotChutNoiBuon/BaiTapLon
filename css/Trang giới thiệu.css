@@ -43,14 +43,14 @@ header {
     text-decoration: none;
     color:white;
     padding:1rem;
-    color: #fff;
-    border: 1px solid;
     border-radius: 10px;
-    border-color: #05a081;
-    background: #05a081;
+    background: linear-gradient(to left top, #13547a, #80d0c7);
     font-size: 16px;
     font-weight: 600;
     position: relative;
+}
+.neck a:hover {
+    background: linear-gradient(to left top, #93a5cf, #e4efe9);
 }
 .neck {
     color: white;
@@ -73,7 +73,7 @@ header {
     padding:4rem;
 
 
-    background: rgb(255, 255, 255);
+    background: linear-gradient(to bottom right, #cfd9df, #e2ebf0);
     border: 1px solid rgb(226, 226, 226);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     border-radius: 15px;
@@ -95,28 +95,24 @@ header {
     font-size: 45px;
     line-height: 40px;
     color: rgb(244, 178, 35);
-    border: 1px solid rgb(255, 255, 255);
 }
 .number2 {
     font-weight: 600;
     font-size: 45px;
     line-height: 40px;
     color: rgb(37, 195, 195);
-    border: 1px solid rgb(255, 255, 255);
 }
 .number3 {
     font-weight: 600;
     font-size: 45px;
     line-height: 40px;
     color: rgb(15, 142, 213);
-    border: 1px solid rgb(255, 255, 255);
 }
 .number4 {
     font-weight: 600;
     font-size: 45px;
     line-height: 40px;
     color: rgb(240, 151, 108);
-    border: 1px solid rgb(255, 255, 255);
 }
 .number span {
     font-weight: 500;
@@ -213,8 +209,8 @@ header {
     text-align: center;
 }
 .para a:hover {
-    color: rgb(84, 86, 90);
-    background: rgb(255, 255, 255);
+    color: lightyellow;
+    background: linear-gradient(to top, #93a5cf, #e4efe9)
 }
 
 .para a:visited {
@@ -233,7 +229,7 @@ header {
 
 }
 .foot {
-    background-color: rgb(38, 40, 42);
+    background: linear-gradient(180deg, #1e3c72, #2a5298);
     color: white;
     border-radius: 29px;
     padding:10px;
@@ -263,10 +259,10 @@ header {
   ở đây là để hiển thị pointer*/
   padding: 15px;
   border-radius: 50%;
-  background-color: rgb(254,213,2);
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
 }
  
 #myBtn:hover {
-  background-color: rgb(38, 40, 42);
+  background:linear-gradient(to left, #09203f, #537895);
   color:rgb(254,213,2);
 }
