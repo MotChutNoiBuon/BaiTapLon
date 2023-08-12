@@ -75,12 +75,15 @@ header {
 .books  {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .book {
     width: 20%;
     padding: 0.2rem;
     box-sizing: border-box;
+    text-decoration: none;
+    
 }
 
 .book > div {
@@ -93,6 +96,11 @@ header {
 .book img {
     width: 100%;
     transition: transform .5s;
+}
+
+.book a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .book img:hover {

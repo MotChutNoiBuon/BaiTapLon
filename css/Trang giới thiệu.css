@@ -174,10 +174,11 @@ header {
     align-items: center;
     border-radius: 20px;
     padding: 5px 50px;
-    background-image: url(../images/gray\ bee.jpg);
+    background-image: url(../images/pxfuel\ dao\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
+    color:#e2ebf0;
 
 }
 .introduction div {
@@ -197,12 +198,12 @@ header {
 .para a {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     border-radius: 60px;
-    color: rgb(255, 255, 255);
+    color: #6d6260;
     width: auto;
     height: auto;
     font-size: 20px;
     margin-top: 20px;
-    background: rgb(84, 86, 90);
+    background: #6d6260;
     min-width: 20px;
     padding:15px;
     text-decoration: none;
@@ -210,7 +211,7 @@ header {
 }
 .para a:hover {
     color: lightyellow;
-    background: linear-gradient(to top, #93a5cf, #e4efe9)
+    background: linear-gradient(to bottom, #595051, #3c3e3f)
 }
 
 .para a:visited {
@@ -221,7 +222,6 @@ header {
     height: auto;
     font-size: 20px;
     margin-top: 20px;
-    background: rgb(84, 86, 90);
     min-width: 20px;
     padding:15px;
     text-decoration: none;
