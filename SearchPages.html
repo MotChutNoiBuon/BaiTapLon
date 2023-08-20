@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Pages</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="/css/book.css">;
-    <link rel="shortcut icon" type="image/png" href="/images/logo-2.ico"/>
+    <link rel="stylesheet" href="/css/book.css">
+    <link rel="shortcut icon" href="/images/logo-2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/book_reponsive.css"><!--Reponsive css-->
     <script src="/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <script src="/js/SearchPages.js"></script>
+    <script src="/js/searchfunction.js"></script>
     <script src="/js/backtotop.js"></script>
 </head>
-<body>
+<body>  
     <header class="flex main">
         <div class="flex">
             <a href="Trang giới thiệu.html"><img src="images/logo.png" class="subject" /></a>
@@ -28,7 +30,7 @@
     </header>
     <div class="content">
         <div class="search_pages">
-            <div class="search_box ">  
+            <div class="search_box">  
                 <input type="text" id="myInput" placeholder="Tìm Kiếm">
             </div>
 
@@ -36,17 +38,17 @@
                 <div>
                     <div class="left_pane ">
                         <div>Filter</div>
-                        <ul class="book_tags" id="myUL">
-                            <li><button>Tiệm sách cơn mưa 1</button></li>
-                            <li><button>Tiệm sách cơn mưa 2</button></li>
-                            <li><button>Tiệm sách cơn mưa 3</button></li>
-                            <li><button>Tiệm sách cơn mưa 4</button></li>
-                            <li><button>Tiệm sách cơn mưa 5</button></li>
+                        <ul class="book_tags" id="myUL1">
+                            <li><a href="#Tiệm_sách_cơn_mưa_1">Tiệm sách cơn mưa 1</a></li>
+                            <li><a href="#Tiệm_sách_cơn_mưa_2">Tiệm sách cơn mưa 2</a></li>
+                            <li><a href="#Tiệm_sách_cơn_mưa_3">Tiệm sách cơn mưa 3</a></li>
+                            <li><a href="#Tiệm_sách_cơn_mưa_4">Tiệm sách cơn mưa 4</a></li>
+                            <li><a href="#Tiệm_sách_cơn_mưa_5">Tiệm sách cơn mưa 5</a></li>
                         </ul>
                     </div>
 
                     <div class="right_pane">
-                        <ul id="myUL">
+                        <ul id="myUL2">
                             <li class="books books1" id="books1"></li>
                             <li class="books books2" id="books2"></li>
                             <li class="books books3" id="books3"></li>
