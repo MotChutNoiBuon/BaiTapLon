@@ -124,3 +124,18 @@ header {
     margin-left:2%;
     margin-right: 2%;
 }
+.search a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    padding:1rem;
+    border-radius: 10px;
+    background: linear-gradient(to left top, #13547a, #80d0c7);
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+.search a:hover {
+    background: linear-gradient(to left top, #93a5cf, #e4efe9);
+}
