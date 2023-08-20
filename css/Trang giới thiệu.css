@@ -262,16 +262,3 @@ header {
   background:linear-gradient(to left, #09203f, #537895);
   color:rgb(254,213,2);
 }
-/*Nút show menu*/
-.show {
-    text-decoration: none;
-    background-color: azure;
-    padding: 1rem;
-    display: none;
-    position: fixed;
-}
-/*Nút đóng menu*/
-.close {
-    display: none;
-
-}
