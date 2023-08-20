@@ -1,0 +1,224 @@
+@media (min-width: 280px) and (max-width: 319px) {/*Samsung Galaxy Fold Half panel*/
+
+}
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    div#menu{
+        flex-direction: column;
+    }
+    .subject {
+        width: 4rem;
+    }
+    .ads > h2 {
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .neck {
+        text-align: center;
+        padding: 1rem;
+    }
+    .neck h1 {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+    div.number{
+        width: 25%;
+    }
+    .numbers {
+        margin: 0;
+        padding:0;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .number1 {
+       
+        font-size: 150%;
+        line-height: 2.5rem;
+        color: rgb(244, 178, 35);
+    }
+    .number2 {
+        
+        font-size: 150%;
+        line-height: 2.5rem;
+        color: rgb(37, 195, 195);
+    }
+    .number3 {
+       
+        font-size: 150%;
+        line-height: 2.5rem;
+        color: rgb(15, 142, 213);
+    }
+    .number4 {
+       
+        font-size: 150%;
+        line-height: 2.5rem;
+        color: rgb(240, 151, 108);
+    }
+    .number span {
+      
+        font-size: 80%;
+        line-height: 1.5rem;
+        color: rgb(84, 86, 90);
+    }
+    .advanture>.icons{
+        width: 25%;
+    }
+    .icon1 {
+        margin:0;
+    }
+    .icon2 {
+        margin:0;
+    }
+    .icon3 {
+        margin:0;
+    }
+    .icon4 {
+        margin:0;
+    }
+    .icons i{
+        font-size: 200%;
+    }
+    .icons>span{
+        font-size: 80%;
+    }
+    .introduction{
+        padding: 0;
+        justify-content: center;
+    }
+    .introduction>div:nth-child(1) {
+        width: 0%;
+    }
+    .introduction>div:nth-child(2) {
+        width: 100%;
+    }
+    .para>h2{
+        font-size: 1.6rem;
+    }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    div#menu{
+        flex-direction: row;
+    }
+    .subject {
+        width: 6rem;
+    }
+    
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .ads > h2 {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        margin: 0.2rem;
+    }
+    .neck h1 {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    .numbers {
+        margin: 5rem;
+        padding:4rem;
+       
+        height: 119px;
+        
+    }
+    .neck p {
+        margin-top: 2rem;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .neck {
+        padding: 10rem;
+    }
+    .icons{
+        margin-bottom: 2rem;
+    }
+    .icon1 {
+        margin:20px;
+
+    }
+    .icon2 {
+        margin:20px;
+
+
+    }
+    .icon3 {
+        margin:20px;
+
+
+    }
+    .icon4 {
+        margin:20px;
+
+
+    }
+    .advanture span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .advanture > div {
+        width: 200px;
+    }
+    .introduction>div:nth-child(1) {
+        width: 50%;
+    }
+    .introduction>div:nth-child(2) {
+        width: 50%;
+    }
+    .introduction h2 {
+        font-size: 36px;
+    }
+    .para a {
+        font-size: 20px;
+        margin-top: 20px;
+        padding:15px;
+    }
+    .icons span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(84, 86, 90);
+    }
+    .advanture i {
+        font-size: 70px;
+    }
+    .number span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: rgb(84, 86, 90);
+    }
+    .numbers {
+        margin: 5rem;
+        padding:4rem;
+        height: 119px;
+    }
+    .number1 {
+        font-weight: 600;
+        font-size: 300%;
+        line-height: 40px;
+    }
+    .number2 {
+        font-weight: 600;
+        font-size: 300%;
+        line-height: 40px;
+    }
+    .number3 {
+        font-weight: 600;
+        font-size: 300%;
+        line-height: 40px;
+    }
+    .number4 {
+        font-weight: 600;
+        font-size: 300%;
+        line-height: 40px;
+    }
+}

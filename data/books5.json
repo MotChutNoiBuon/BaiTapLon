@@ -3,7 +3,7 @@
     "name": "Tiệm sách cơn mưa",
     "price":400000,
     "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
-    "link": "#"
+    "link":"books/book5.html"
     
 },
 {
@@ -11,7 +11,7 @@
     "name": "Tiệm sách cơn mưa",
     "price":400000,
     "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
-    "link": "#"
+    "link":"books/book5.html"
 
 
 },
@@ -20,7 +20,7 @@
     "name": "Tiệm sách cơn mưa",
     "price":400000,
     "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
-    "link": "#"
+    "link":"books/book5.html"
 
 
 },
@@ -29,7 +29,7 @@
     "name": "Tiệm sách cơn mưa",
     "price":400000,
     "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
-    "link": "#"
+    "link":"books/book5.html"
 
 
 },
@@ -38,7 +38,53 @@
     "name": "Tiệm sách cơn mưa",
     "price":400000,
     "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
-    "link": "#"
+    "link":"books/book5.html"
+
+
+},
+{
+    "id":1,
+    "name": "Tiệm sách cơn mưa",
+    "price":400000,
+    "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
+    "link":"books/book5.html"
+
+
+},
+{
+    "id":1,
+    "name": "Tiệm sách cơn mưa",
+    "price":400000,
+    "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
+    "link":"books/book5.html"
+
+
+},
+{
+    "id":1,
+    "name": "Tiệm sách cơn mưa",
+    "price":400000,
+    "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
+    "link":"books/book5.html"
+
+
+},
+{
+    "id":1,
+    "name": "Tiệm sách cơn mưa",
+    "price":400000,
+    "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
+    "link":"books/book5.html"
+
+
+},
+
+{
+    "id":1,
+    "name": "Tiệm sách cơn mưa",
+    "price":400000,
+    "image": "images/books/tiem-sach-con-mua-5_4391.jpg",
+    "link":"books/book5.html"
 
 
 

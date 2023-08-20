@@ -68,11 +68,14 @@ header {
 .neck p {
     margin-top: 2rem;
 }
+.khoe>div{
+    display: flex;
+    align-items: center;
+}
+
 .numbers {
     margin: 5rem;
     padding:4rem;
-
-
     background: linear-gradient(to bottom right, #cfd9df, #e2ebf0);
     border: 1px solid rgb(226, 226, 226);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
@@ -85,32 +88,31 @@ header {
     justify-content: space-evenly;
 }
 .number {
-    padding:6rem;
-    margin:6rem;
+   
     text-align: center;
 
 }
 .number1 {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 300%;
     line-height: 40px;
     color: rgb(244, 178, 35);
 }
 .number2 {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 300%;
     line-height: 40px;
     color: rgb(37, 195, 195);
 }
 .number3 {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 300%;
     line-height: 40px;
     color: rgb(15, 142, 213);
 }
 .number4 {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 300%;
     line-height: 40px;
     color: rgb(240, 151, 108);
 }
@@ -166,7 +168,6 @@ header {
     position: relative;
 }
 .introduction {
-    height: 500px;
     margin-top: 22px;
     margin-left:7%;
     margin-right: 7%;
@@ -177,7 +178,6 @@ header {
     background-image: url(../images/pxfuel\ dao\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: column;
     color:#e2ebf0;
 
 }
@@ -190,10 +190,6 @@ header {
 .para h2, .para p, .para a {
     display:block;
     margin:5%;
-}
-.para {
-    margin-left: auto;
-    margin-bottom: auto;
 }
 .para a {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
@@ -265,4 +261,17 @@ header {
 #myBtn:hover {
   background:linear-gradient(to left, #09203f, #537895);
   color:rgb(254,213,2);
+}
+/*Nút show menu*/
+.show {
+    text-decoration: none;
+    background-color: azure;
+    padding: 1rem;
+    display: none;
+    position: fixed;
+}
+/*Nút đóng menu*/
+.close {
+    display: none;
+
 }

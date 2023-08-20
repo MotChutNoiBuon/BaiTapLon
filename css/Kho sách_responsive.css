@@ -1,0 +1,42 @@
+@media (min-width: 280px) and (max-width: 450px) {
+    .book {
+        width:50%;
+        
+    }
+    .titleofbooks {
+        padding:0.1%;
+    }
+    .titleofbooks > h3 {
+        margin-left:5%;
+        margin-right: 5%;
+    }
+}
+@media (min-width:450px) and (max-width: 641px)  {
+    .book {
+        width:30%;
+        
+    }
+    .titleofbooks {
+        padding:0.1%;
+    }
+    .titleofbooks > h3 {
+        margin-left:5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media (min-width:641px) and (max-width: 992px)  {
+    .book {
+        width:30%;
+        
+    }
+    .titleofbooks {
+        padding:0.1%;
+    }
+    .titleofbooks > h3 {
+        margin-left:5%;
+        margin-right: 5%;
+    }
+
+}

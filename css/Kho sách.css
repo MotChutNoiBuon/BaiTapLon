@@ -15,7 +15,7 @@ header {
 }
 .ads > h2 {
     width: 100%;
-    height: 5rem;
+    height: 100%;
     display: flex;
     align-items: center;
     padding: 0.5rem;
@@ -55,8 +55,8 @@ header {
     display: none; /*Mặc định button sẽ được ẩn*/
   
     position: fixed;
-    bottom: 20px;
-    right: 30px; 
+    bottom: 3%;
+    right: 3%; 
     z-index: 99;
     border: none;
     outline: none;
@@ -87,13 +87,14 @@ header {
 }
 
 .book > div {
-    border: 1px solid darkblue;
-    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 8px;
     padding: 0.5rem;
     position: relative;
 }
 
 .book img {
+    border-radius: 10%;
+
     width: 100%;
     transition: transform .5s;
 }
@@ -102,13 +103,24 @@ header {
     text-decoration: none;
     color: inherit;
 }
+.book a, .book p {
+    text-align: center;
+}
 
 .book img:hover {
     transform: scale(0.8);
 }
-section > h3 {
-    padding: 1.2rem;
+.titleofbooks {
+    padding: 0.5%;
+    margin-top: 2%;
     background: linear-gradient(to right, #c79081, #dfa579);
     border-radius: 3rem;
     color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.titleofbooks > h3 {
+    margin-left:2%;
+    margin-right: 2%;
 }

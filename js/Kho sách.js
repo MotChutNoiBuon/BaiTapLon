@@ -19,7 +19,7 @@ function loadBooks() {
             </div>
             `
         }
-        m=`<h3>Mưa</h3>`;
+        m=`<div class="titleofbooks"><h3>Mưa</h3><h3><i class="fa-solid fa-angle-down"></i></h3></div>`;
         let y = document.querySelector(".books1");
         y.insertAdjacentHTML("beforebegin", m);
 
@@ -31,6 +31,7 @@ function loadBooks() {
 
     })
 }
+
 function loadBooks2() {
     fetch("data/books2.json").then(res => res.json()).then(data => {
         
@@ -53,7 +54,7 @@ function loadBooks2() {
             </div>
             `
         }
-        m=`<h3>Mưa 2</h3>`;
+        m=`<div class="titleofbooks"><h3>Mưa 2</h3><h3><i class="fa-solid fa-angle-down"></i></h3></div>`;
         let y = document.querySelector(".books2");
         y.insertAdjacentHTML("beforebegin", m);
 
@@ -86,7 +87,7 @@ function loadBooks3() {
             </div>
             `
         }
-        m=`<h3>Mưa 3</h3>`;
+        m=`<div class="titleofbooks"><h3>Mưa 3</h3><h3><i class="fa-solid fa-angle-down"></i></h3></div>`;
         let y = document.querySelector(".books3");
         y.insertAdjacentHTML("beforebegin", m);
 
@@ -119,7 +120,7 @@ function loadBooks4() {
             </div>
             `
         }
-        m=`<h3>Mưa 4</h3>`;
+        m=`<div class="titleofbooks"><h3>Mưa 4</h3><h3><i class="fa-solid fa-angle-down"></i></h3></div>`;
         let y = document.querySelector(".books4");
         y.insertAdjacentHTML("beforebegin", m);
 
@@ -153,7 +154,7 @@ function loadBooks5() {
             </div>
             `
         }
-        m=`<h3>Mưa 5</h3>`;
+        m=`<div class="titleofbooks"><h3>Mưa 5</h3><h3><i class="fa-solid fa-angle-down"></i></h3></div>`;
         let y = document.querySelector(".books5");
         y.insertAdjacentHTML("beforebegin", m);
 

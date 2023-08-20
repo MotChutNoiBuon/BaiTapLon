@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="/css/book.css">
+    <link rel="shortcut icon" href="/images/logo-2.ico" type="image/x-icon">
+    <script src="/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="/js/book.js"></script>
+    <!--Star Rating css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Reponsive css-->
+    <link rel="stylesheet" href="/css/book_reponsive.css">
+
+</head>
+<body >
+    <header class="flex main">
+        <div>   
+            <a href="Trang giới thiệu.html"><img src="/images/logo.png" class="subject" /></a>
+        </div>
+       
+        <div class="ads">
+            <h2>Your Online Library</h2>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/TruongDaiHocMo"><i class="fa-brands fa-facebook"></i></a>
+            <a href="mailto:ou@ou.edu.vn"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.instagram.com/ou.edu.vn/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    <div class="content ">
+        <div class="book_pages">
+            <div class="left">
+
+                <div>
+
+                    <div class="book_box ">
+                        <div class="book_cover">
+                            <img src="/images/books/tiem-sach-con-mua-2_1299.jpg" alt="book_cover" class="book_img">
+                        </div>
+                    </div>
+
+                    <div class="book_buttons">
+                        <div class="price_box">400000 VNĐ</div>
+                        <div class="rating-stars">
+                            <ul id='stars'>
+                                <li class='star' title='Poor' data-value='1'>
+                                  <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='Fair' data-value='2'>
+                                  <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='Good' data-value='3'>
+                                  <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='Excellent' data-value='4'>
+                                  <i class='fa fa-star fa-fw'></i>
+                                </li>
+                                <li class='star' title='WOW!!!' data-value='5'>
+                                  <i class='fa fa-star fa-fw'></i>
+                                </li>
+                            </ul>
+                            <div>Rate this book</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="right ">
+                <div>
+                    <div class="book_description_Box">
+                        <div class="Book_title"> 
+                            <h1><strong>Tiệm Sách Cơn Mưa 2</strong></h1>
+                        </div>
+                        <div class="book_Author">
+                            <span class="gray">By </span>
+                            <span class="author_name">Rieko Hinata</span>  
+                        </div>
+                        <div class="book_Rating">
+                            <div class="book_rating_star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                            </div>
+                            <div class="book_score">
+                                <span class="average_score">3.75</span>
+                            </div>
+                        </div>
+                        <div class="book_description">
+                            <div class="description">
+                                <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quia eaque quam hic deleniti tempora voluptatibus quidem, totam repellat illo sapiente soluta non quae tenetur. Quibusdam nostrum ipsam vitae molestias magni quo mollitia ab dignissimos delectus iste rerum neque<span class="more"> nobis commodi porro dolorum. Sint tempora optio eos quisquam! Illum, pariatur cupiditate? Odit nisi labore, eaque corrupti pariatur quibusdam animi impedit accusantium? Aspernatur corporis aliquam atque quod dolorum quia fugiat, modi debitis dignissimos vitae, sint, odio eaque reiciendis dolorem aliquid alias ullam ipsum mollitia blanditiis repellat itaque culpa non ad asperiores? Harum voluptatum itaque quos cupiditate sunt saepe, incidunt repudiandae tenetur quisquam aperiam vel, perferendis amet?</span>
+                                </p>
+                                <div><a id="moreless" href="#" onclick="return false;">Read More</a></div>
+                            </div>
+                        </div>
+                        <div class="book_details">
+                           
+                            <div class="format">
+                                <div class="gray">Pages</div>
+                                <div>389</div>
+                            </div>
+                            <div class="published">
+                                <div class="gray">published</div>
+                                <div>July 11, 2023</div> 
+                            </div>
+                            <div class="Language">
+                                <div class="gray">Language</div>
+                                <div>English</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <h4>Thông tin chung</h4>
+        <div>
+            <p>Địa chỉ: 35 - 37 Hồ Hảo Hớn, Phường Cô Giang, Quận 1, TP. HCM.</p>
+            <p>Điện thoại: <a href="tel:028-38364748">028-38364748</a>.</p>
+            <p>Fax: <a href="tel:02839207639">028-39207639</a> hoặc <a href="tel:02839207640">028-39207640</a>.</p>
+            <p>E-mail: <a href="mailto:ou@ou.edu.vn">ou@ou.edu.vn</a>.</p>
+        </div>
+    </div>
+</body>
+</html>

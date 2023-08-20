@@ -1,0 +1,274 @@
+* {
+    font-family: Be Vietnam Pro, sans-serif;
+    src: url(../fonts/BeVietnamPro-Regular.ttf);
+}
+
+/*Star Rating Css*/
+.checked{
+    color:orange;
+}
+/*CSS hỗ trợ*/
+.boder{
+    border: solid red 1px;
+}
+.boder2{
+    border: dashed pink 1px;
+}
+.gray{
+    color: gray;
+}
+body{
+    background-color: white;
+}
+.display-none{
+    display: none;
+}
+/*Vị trí 2 box left right*/
+.content{   
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    border: solid gray 1px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.content>div.book_pages{
+    display: flex;
+    flex-wrap:wrap;  
+}
+div.left{
+    width: 25%;
+}
+div.right{
+    width: 75%;
+}
+div.recommendation{
+    width: 100%;
+}
+/*Left box css*/
+.left>div{
+    margin: 1rem;
+    padding: 0.5em;
+    text-align: center;
+    border: solid lightgray 1px;
+    border-radius: 15px;
+}
+.book_cover>img{
+    width: 100%;
+    transition: transform .5s
+}
+img.book_img:hover{
+    transform: scale(0.8);
+}
+.book_buttons>div{
+    margin-top: 0.5rem;
+}
+div.price_box{
+    padding: 0.5rem;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 25px;
+}
+div.rating-star{
+    text-align: center;
+}
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+}
+.rating-stars ul > li.star {
+    display:inline-block;
+}
+.rating-stars ul > li.star > i.fa {
+    color:#ccc;
+}
+.rating-stars ul > li.star.hover > i.fa {
+    color:#FFCC36;
+}
+.rating-stars ul > li.star.selected > i.fa {
+    color:#FF912C;
+}
+
+/*Right Box css*/
+.right>div{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    padding-right: 5rem;
+}
+.book_description_Box>div{
+    margin-bottom: 1rem;
+}
+.author_name{
+    color: blue;
+    font-size: 1.5rem;
+}
+.book_Rating>div{
+    display: inline-block;
+}
+.book_Rating{
+    font-size: 1.5rem;
+
+}
+.book_score{
+    margin-left: 0.5rem;
+}
+/*.description_short{
+    height: 8rem;
+    overflow: hidden;
+}*/
+#moreless{
+    color:darkblue;
+    cursor: pointer;
+}
+.more{
+    display: none;
+}
+#moreless:hover{
+    text-decoration: underline darkblue;
+}
+div.book_details>div{
+    margin-top: 1rem;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    border: solid 0.5px lightgray;
+    border-radius: 10px;
+}
+/*SearchPages Css*/
+
+.search_box{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+    height: 2.5rem;
+    text-align: center;
+}
+input{
+    height: 100%;
+    width: 90%;
+}
+.search_panel>div{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.left_pane{
+    width: 40%;
+    padding: 1rem;
+    border-right:solid gray 1px;
+}
+.right_pane{
+    width: 60%;
+}
+.right_pane>ul{
+    list-style-type:none;
+    padding: 0;
+}
+.book_on_shelf{
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: solid gray 1px;
+}
+
+
+#book_on_shelf_names>a{
+   font-size: 1.5rem;
+   text-decoration: none;
+  
+}
+#book_on_shelf_names>a:hover{
+    text-decoration: underline;
+   
+ }
+ .book_on_shelf_names>a:visited{
+    color: black;
+ }
+ ul.book_tags{
+    list-style-type: none;
+    padding: 0;
+ }
+ ul.book_tags>li{
+    padding: 0.5rem;
+    text-decoration: none;
+ }
+ ul.book_tags>li a{
+    text-decoration: none;
+ }
+ ul.book_tags>li a:visited{
+    color: blue;
+ }
+
+ /*Css Bổ sung từ file của Lộc*/
+ header {
+    background:white;
+}
+.subject {
+    width: 6rem;
+}
+.ads > h2 {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    justify-content: space-between;
+}
+
+.main a {
+    margin:10px;
+}
+
+
+.foot {
+    background: linear-gradient(180deg, #1e3c72, #2a5298);
+    color: white;
+    border-radius: 29px;
+    padding:10px;
+    margin:10px;
+}
+.foot a {
+    text-decoration: none;
+    color: white;
+    
+}
+.foot a:hover {
+    color:  rgb(254,213,2);
+}
+*::selection {
+    background: rgb(254,213,2);
+    color:black;
+}
+/* Button back to top */
+#myBtn {
+    display: none; /*Mặc định button sẽ được ẩn*/
+  
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer; /*cursor hiển thị con trỏ chuột khi duy chuyển con trỏ vào thành phần
+    ở đây là để hiển thị pointer*/
+    padding: 15px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+ 
+#myBtn:hover {
+  background:linear-gradient(to left, #09203f, #537895);
+  color:rgb(254,213,2);
+}

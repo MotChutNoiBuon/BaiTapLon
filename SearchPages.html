@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Pages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="/css/book.css">;
+    <link rel="shortcut icon" type="image/png" href="/images/logo-2.ico"/>
+    <script src="/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="/js/SearchPages.js"></script>
+    <script src="/js/backtotop.js"></script>
+</head>
+<body>
+    <header class="flex main">
+        <div class="flex">
+            <a href="Trang giới thiệu.html"><img src="images/logo.png" class="subject" /></a>
+        </div>
+       
+        <div class="ads flex">
+            <h2>Your Online Library</h2>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/TruongDaiHocMo"><i class="fa-brands fa-facebook"></i></a>
+            <a href="mailto:ou@ou.edu.vn"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.instagram.com/ou.edu.vn/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="search_pages">
+            <div class="search_box ">  
+                <input type="text" id="myInput" placeholder="Tìm Kiếm">
+            </div>
+
+            <div class="search_panel">
+                <div>
+                    <div class="left_pane ">
+                        <div>Filter</div>
+                        <ul class="book_tags" id="myUL">
+                            <li><button>Tiệm sách cơn mưa 1</button></li>
+                            <li><button>Tiệm sách cơn mưa 2</button></li>
+                            <li><button>Tiệm sách cơn mưa 3</button></li>
+                            <li><button>Tiệm sách cơn mưa 4</button></li>
+                            <li><button>Tiệm sách cơn mưa 5</button></li>
+                        </ul>
+                    </div>
+
+                    <div class="right_pane">
+                        <ul id="myUL">
+                            <li class="books books1" id="books1"></li>
+                            <li class="books books2" id="books2"></li>
+                            <li class="books books3" id="books3"></li>
+                            <li class="books books4" id="books4"></li>
+                            <li class="books books5" id="books5"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+            </div>
+ 
+        </div>
+    </div>
+    <div class="foot">
+        <h4>Thông tin chung</h4>
+        <div>
+            <p>Địa chỉ: 35 - 37 Hồ Hảo Hớn, Phường Cô Giang, Quận 1, TP. HCM.</p>
+            <p>Điện thoại: <a href="tel:028-38364748">028-38364748</a>.</p>
+            <p>Fax: <a href="tel:02839207639">028-39207639</a> hoặc <a href="tel:02839207640">028-39207640</a>.</p>
+            <p>E-mail: <a href="mailto:ou@ou.edu.vn">ou@ou.edu.vn</a>.</p>
+        </div>
+    </div>
+    <button id="myBtn" title="Back to top"><i class="fa-solid fa-circle-arrow-up"></i></button>
+</body>
+</html>
