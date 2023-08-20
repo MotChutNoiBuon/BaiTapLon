@@ -12,8 +12,8 @@ $(document).ready(function(){
 
     $(window).load(function() {
         if ($('header').length > 0) {
-         var _top = $('header').offset().top - parseFloat($('header').css('marginTop').replace(/auto/, 0));
-         $(window).scroll(function(evt) {
+         var _top = $('header').offset().top - parseFloat($('header').css('marginTop').replace(0));
+         $(window).scroll(function() {
           var _y = $(this).scrollTop();
           if (_y > _top) {
            $('header').addClass('fixed');
